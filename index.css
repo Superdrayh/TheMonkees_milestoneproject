@@ -5,7 +5,7 @@ body {
 }
 
 header { 
-  background-image:url('assets/live3.jpg');
+  background-image:url("assets/live3.jpg");
   width:100%;
   height: 1366px;
   background-size: cover;
@@ -19,8 +19,6 @@ h1{
   color:yellow;
   text-shadow: 1px 1px grey;
 }
-
-
 
 
 .dot {
@@ -37,6 +35,13 @@ hr{
   background-color: #bbb;
   border: none;
 }
+
+
+.navbar {
+      font-family: 'Righteous';
+      size: 20px;
+    }
+
 
 .home {
   float: left;
