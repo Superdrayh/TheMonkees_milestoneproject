@@ -54,7 +54,7 @@ https://en.wikipedia.org/wiki/The_Birds,_The_Bees_%26_The_Monkees
 
 ## Acknowledgements
 
--"ABOUT" Members is modified after the following MDB Bootstrap team sections
+- "ABOUT" Members is modified after the following MDB Bootstrap team sections
 https://mdbootstrap.com/docs/jquery/sections/team/
 - Navigation bar is modified after the following Code-Institute-Solutions/BootstrappingYourNextBigIdea-BS4
 https://github.com/Code-Institute-Solutions/BootstrappingYourNextBigIdea-BS4/blob/master/03-Components/03-progressive_enhancements_with_javascript_components-part-1/index.html
