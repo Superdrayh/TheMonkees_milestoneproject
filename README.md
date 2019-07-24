@@ -29,9 +29,10 @@ The live site is deployed on GitHub pages by using the master branch. It updates
 ### Content
 - Texts in "CONTACT" section in the site were written by me
 
-- Texts in "ABOUT" is excerpted and summarised from wikipedia, biography.com
+- Texts in "ABOUT" is excerpted and summarised from wikipedia, biography.com and fandom.com
 https://en.wikipedia.org/wiki/The_Monkees
 https://www.biography.com/people/groups/the-monkees
+https://monkees.fandom.com/wiki/David_Jones
 
 - Album lists and texts in "MUSIC" section is excerpted from wikipedia
 https://en.wikipedia.org/wiki/The_Monkees_discography
