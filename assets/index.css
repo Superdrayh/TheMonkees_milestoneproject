@@ -13,6 +13,11 @@ header {
   background-repeat: no-repeat
 }
 
+.navbar {
+      font-family: 'Righteous';
+      size: 20px;
+    }
+
 
 .sticky {
   position: -webkit-sticky;
