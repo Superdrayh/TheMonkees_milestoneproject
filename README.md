@@ -1,6 +1,8 @@
 # The Monkees
 
-Yonghee's Miles Stone Project: User Centric Frontend Development - Code Institute
+**Yonghee's Miles Stone Project: User Centric Frontend Development - Code Institute (2nd submission)**
+Please note this version is an improved version of my previous submission - https://superdrayh.github.io/Mini-project/
+
 This is a project website targets The Monkees fans and potential fans to provide brief information about The Monkees, their music, recent tour information/news and to publise their availability to perform at events, such as weddings/Christmas Parties. 
 
 ## Demo
