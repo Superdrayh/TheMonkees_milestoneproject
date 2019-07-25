@@ -1,10 +1,32 @@
-<html>
-<body>
+<?php
+   $name    = $_POST['name'];
+   $email   = $_POST['email'];
+   $message = $_POST['message'];
 
-Thank you <?php echo $_POST["name"]; ?><br>
-Your email address is: <?php echo $_POST["email"]; ?><br>
-Your message is : <?php echo $_POST["comment"]; ?><br>
-We'll get back to you asap!   
+if(empty($_POST['name'])  || 
+   empty($_POST['email']) || 
+   empty($_POST['message']))
 
-</body>
-</html>
+ {
+       echo "
+<h2>Feedback</h2>
+<form method='post' action='contact.php'>
+   Name: <br /><input name='name' type='text' value='$name' /><br /><br />
+   EMail: <br /><input name='email' type='text' value='$email' /><br /><br />
+   Message:<br />
+   <textarea name='message' cols='55' rows='8'>$message</textarea><br /><br />
+   <input type='submit' value='Send' />
+</form>
+<p>All fields are required</p>
+    ";
+       exit;
+   }
+
+else {
+$send_to = 'kamy@tcd.ie'; // change to your email
+mail($send_to, "Name: $name" , $message, "From: $email");
+
+echo "Thank you! We'll get back to you asap!";
+}
+
+?>
