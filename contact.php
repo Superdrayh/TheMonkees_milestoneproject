@@ -1,6 +1,10 @@
-<br>
-<br>
-<br>
-<centre>
-<h1>Thank you!</h1> 
-<br><h2>We will get back to you within 24hrs!<h2></centre>
+<html>
+<body>
+
+Thank you <?php echo $_POST["name"]; ?><br>
+Your email address is: <?php echo $_POST["email"]; ?><br>
+Your message is : <?php echo $_POST["comment"]; ?><br>
+We'll get back to you asap!   
+
+</body>
+</html>
