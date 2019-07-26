@@ -1,32 +1,10 @@
-<?php
-   $name    = $_POST['name'];
-   $email   = $_POST['email'];
-   $message = $_POST['message'];
+<html>
+<body>
 
-if(empty($_POST['name'])  || 
-   empty($_POST['email']) || 
-   empty($_POST['message']))
-
- {
-       echo "
-<h2>Book the Monkees!</h2>
-<form method='post' action='contact.php'>
-   Name: <br /><input name='name' type='text' value='$name' /><br /><br />
-   EMail: <br /><input name='email' type='text' value='$email' /><br /><br />
-   Message:<br />
-   <textarea name='message' cols='55' rows='8'>$message</textarea><br /><br />
-   <input type='submit' value='Send' />
-</form>
-<p>All fields are required</p>
-    ";
-       exit;
-   }
-
-else {
-$send_to = 'kamy@tcd.ie'; 
-mail($send_to, "Name: $name" , $message, "From: $email");
-
-echo "Thank you! We'll get back to you asap!";
-}
-
-?>
+<h2>Thank you! <?php echo $_POST["name"]; ?><br>
+Your email address is: <?php echo $_POST["email"]; ?>  </h2>
+<p> We will get back to you within 24hrs!
+<br>Any urgent queries, please reach out to 
+<b>bsolar@apa-agency.com</b> or <b>phone 310.888.4219</b> </p>
+</body>
+</html>
