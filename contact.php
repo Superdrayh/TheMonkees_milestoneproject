@@ -9,7 +9,7 @@ if(empty($_POST['name'])  ||
 
  {
        echo "
-<h2>Feedback</h2>
+<h2>Book the Monkees!</h2>
 <form method='post' action='contact.php'>
    Name: <br /><input name='name' type='text' value='$name' /><br /><br />
    EMail: <br /><input name='email' type='text' value='$email' /><br /><br />
@@ -23,7 +23,7 @@ if(empty($_POST['name'])  ||
    }
 
 else {
-$send_to = 'kamy@tcd.ie'; // change to your email
+$send_to = 'kamy@tcd.ie'; 
 mail($send_to, "Name: $name" , $message, "From: $email");
 
 echo "Thank you! We'll get back to you asap!";
